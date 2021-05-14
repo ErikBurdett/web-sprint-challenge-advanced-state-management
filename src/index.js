@@ -7,6 +7,7 @@ import App from "./App";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware  } from "redux";
 // import logger from "redux-logger"; // couldn't get logger to work?
+//still can't find why logger is breaking?
 import thunk from "redux-thunk";
 import rootReducer from "./reducers/";
 
